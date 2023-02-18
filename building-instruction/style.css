@@ -1,0 +1,289 @@
+.body{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+symbol{
+    position: absolute;
+    width: 98px;
+    height: 97px;
+    left: 2000px;
+    top: 72px;
+    
+}
+
+.title{
+    position: absolute;
+width: 321px;
+height: 31px;
+left: 257px;
+top: 86px;
+
+font-family: 'Pretendard';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 31px;
+letter-spacing: -0.02em;
+text-transform: uppercase;
+
+color: #16325F;
+}
+
+.second-title{
+    
+position: absolute;
+width: 232px;
+height: 19px;
+left: 257px;
+top: 127px;
+
+font-family: 'Pretendard';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: -0.02em;
+text-transform: uppercase;
+
+color: #A9A9A9;
+
+}
+
+.welcome{
+    position: absolute;
+width: 153px;
+height: 63px;
+left: 1400px;
+top: 91px;
+
+font-family: 'Pretendard';
+font-style: normal;
+font-weight: 600;
+font-size: 26px;
+line-height: 63px;
+/* identical to box height, or 242% */
+letter-spacing: -0.02em;
+text-transform: capitalize;
+
+
+}
+
+.welcome>a{
+    color: #EE7F35;
+}
+.멋쟁이사자처럼{
+    position: absolute;
+width: 155px;
+height: 63px;
+left: 1635px;
+top: 91px;
+
+font-family: 'Pretendard';
+font-style: normal;
+font-weight: 500;
+font-size: 26px;
+line-height: 63px;
+/* identical to box height, or 242% */
+letter-spacing: -0.02em;
+text-transform: uppercase;
+
+color: #2D2D2D;
+}
+.멋쟁이사자처럼>a{
+    color: #2D2D2D;
+}
+.content-title{
+    position: absolute;
+width: 230px;
+height: 31px;
+left: 464px;
+top: 255px;
+
+font-family: 'Pretendard';
+font-style: normal;
+font-weight: 500;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: -0.04em;
+text-transform: uppercase;
+
+color: #2D2D2D;
+}
+
+.content1{
+    position: absolute;
+    width: 90px;
+    height: 19px;
+    left: 1535px;
+    top: 262px;
+    
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+    letter-spacing: -0.04em;
+    
+    color: #4B4B4B;
+}
+.arrow{
+    position: absolute;
+width: 6px;
+height: 11px;
+left: 1639px;
+top: 266px;
+
+background: url(화살표_1.png);
+}
+.content2{
+    position: absolute;
+    width: 131px;
+    height: 20px;
+    left: 1659px;
+    top: 262px;
+    
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: right;
+    letter-spacing: -0.04em;
+    
+    color: #4B4B4B;
+}
+
+.location{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 1326px;
+    height: 574px;
+    left: 464px;
+    top: 346px;
+    
+    background: url(location.png);
+    border: 1px solid #D3D3D3;
+    border-radius: 10px;
+}
+
+.을지대학교
+{
+    position: absolute;
+width: 94px;
+height: 26px;
+left: 130px;
+top: 255px;
+
+font-family: 'Pretendard';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 26px;
+letter-spacing: -0.02em;
+text-transform: uppercase;
+
+color: #2D2D2D;
+
+}
+.학과소개{
+
+position: absolute;
+width: 157px;
+height: 24px;
+left: 130px;
+top: 361px;
+
+font-family: 'Pretendard';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+letter-spacing: -0.02em;
+text-transform: uppercase;
+
+color: #2D2D2D;
+
+
+}
+
+.건물소개{
+    position: absolute;
+    width: 157px;
+    height: 24px;
+    left: 130px;
+    top: 409px;
+    
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    
+    color: #2D2D2D;
+    
+}
+.위치안내{
+    position: absolute;
+width: 157px;
+height: 24px;
+left: 130px;
+top: 457px;
+
+font-family: 'Pretendard';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+letter-spacing: -0.02em;
+text-transform: uppercase;
+
+color: #2D2D2D;
+
+}
+.OT{
+    position: absolute;
+width: 90px;
+height: 26px;
+left: 130px;
+top: 541px;
+
+font-family: 'Pretendard';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 26px;
+letter-spacing: -0.02em;
+text-transform: uppercase;
+
+color: #2D2D2D;
+
+}
+
+.맛집추천{
+
+    position: absolute;
+    width: 136px;
+    height: 26px;
+    left: 130px;
+    top: 647px;
+    
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    
+    color: #2D2D2D;
+    
+}
