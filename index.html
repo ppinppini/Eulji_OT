@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css"
+    href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" />
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+ 
+    <title>nav bar</title>
+</head>
+<body>
+    <nav class="navbar">
+        
+        <img class="symbol"src="symbol.png" alt="mark" style="
+        position: absolute;
+        width: 98px;
+        height: 97px;
+        left: 130px;
+        top: 72px;
+        
+    ">
+        <li class="title" style="list-style: none
+        ;">멋쟁이사자 을지대학교 11기</li>
+        <li class="second-title" style="list-style: none;">LIKELION EULJI UNIVERSITY 11th</li>
+        
+        
+            <li class="welcome" style="list-style: none
+            ;"><a href="">Welcome,EU</a>
+
+            </li>
+            <li class="멋쟁이사자처럼" style="list-style: none
+            ; word-break: keep-all;">
+                <a href="">멋쟁이사자처럼</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="menu">
+        
+        <div class="item" style="border-bottom: 1px; padding:20px
+        ;"><a class="sub-btn">
+            <i class="을지대학교" style="font-weight: 800;"></i>을지대학교
+            <i class = "fas fa-angle-right dropdown"></i></a>
+        <div class="sub-menu"> 
+            <a href="" class="sub-item">성남캠퍼스 학과소개</a>
+
+            <a href="" class="sub-item">성남캠퍼스 건물소개</a>
+
+            <a href="" class="sub-item">성남캠퍼스 위치안내</a>
+        </div>
+            <div class="item" style="margin-left: 30px;"><a href="#"><i class="신입생 OT"></i></a>신입생 OT
+        </div>
+
+        <div class="item"><a class="sub-btn">
+            <i class="성남캠 맛집추천" style=" font-weight: 800;"></i>성남캠 맛집추천
+            <i class = "fas fa-angle-right dropdown"></i></a>
+        <div class="sub-menu"> 
+            <a href="" class="sub-item">식사류</a>
+
+            <a href="" class="sub-item">카페</a>
+
+            <a href="" class="sub-item">술집</a>
+        </div>
+        
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.0/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+    $('.sub-btn').click(function(){
+        $(this).next('.sub-menu').slideToggle();
+        $(this).find('.dropdown').toggleClass('rotate');
+    });
+});
+</script>
+    <p class="content-title">성남캠퍼스 위치안내 📍</p>
+    <ui style="list-style: none;">
+        <li class="content1">Welcome,EU</li>
+        <li class="content2">성남캠퍼스 건물소개</li>
+
+    </ui>
+    
+    <img class="arrow" src="화살표 _ 1.png" alt=">"> 
+    <img class="location" src="campus-location.png" alt="위치">   
+        <p class="campus-address" style="
+        position: absolute;
+width: 79px;
+height: 34px;
+left: 1187px;
+top: 368px;
+font-family: 'Pretendard';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: -0.02em;
+text-transform: uppercase;
+text-align: center;
+
+color: #2D2D2D;
+border: 1px solid #999999;
+border-radius: 40px;
+        
+        "
+        >학교위치</p>
+        <div class="campus-address-content">을지대학교 성남캠퍼스  I  (13135) 경기도 성남시 수정구 산성대로 553 (양지동 212)</div>
+        <div class="subway" style="
+        position: absolute;
+        width: 109px;
+        height: 34px;
+        left: 1187px;
+        top: 497px;
+        font-family: 'Pretendard';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 35px;
+letter-spacing: -0.02em;
+text-transform: uppercase;
+text-align: center;
+
+color: #2D2D2D;
+        
+        border: 1px solid #999999;
+        border-radius: 40px;">지하철 이용시</div>
+        <div class="subway-content">지하철 8호선 남한산성입구역 하차 후 2번 출구 버스 정류장에서 을지대학교 방향 버스 탑승 
+            을지대학교 정문 및 을지대학교 생활관 정류장에서 하차</div>
+            <div class="bus" style="position: absolute;
+            width: 96px;
+            height: 34px;
+            left: 1187px;
+            top: 663px;
+            
+font-family: 'Pretendard';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 40px;
+letter-spacing: -0.02em;
+text-transform: uppercase;
+text-align: center;
+
+color: #2D2D2D;
+            
+            border: 1px solid #999999;
+            border-radius: 40px;">버스 이용시</div>
+            <div class="bus-content">을지대학교 정문 및 을지대학교 생활관 정류장에서 하차</div>
+            <div class="detail-location" style="box-sizing: border-box;
+
+            position: absolute;
+            width: 203px;
+            height: 50px;
+            left: 1187px;
+            top: 875px;
+            font-family: 'Pretendard';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 45px;
+letter-spacing: -0.02em;
+text-transform: uppercase;
+text-align: center;
+
+color: #2D2D2D;
+            background: #FFFFFF;
+            border: 1px solid #999999;
+            border-radius: 5px;"><img class="home" src="vector 13.png">
+                자세한 위치 보러가기</div>
+       
+                
+
+
+</body>
+</html>

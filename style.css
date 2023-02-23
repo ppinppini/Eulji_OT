@@ -1,0 +1,298 @@
+.body{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+
+
+.title{
+    position: absolute;
+width: 321px;
+height: 31px;
+left: 257px;
+top: 86px;
+
+font-family: 'Pretendard';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 31px;
+letter-spacing: -0.02em;
+text-transform: uppercase;
+
+color: #16325F;
+}
+
+.second-title{
+    
+position: absolute;
+width: 232px;
+height: 19px;
+left: 257px;
+top: 127px;
+
+font-family: 'Pretendard';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: -0.02em;
+text-transform: uppercase;
+
+color: #A9A9A9;
+
+}
+
+.welcome{
+    position: absolute;
+width: 153px;
+height: 63px;
+left: 1400px;
+top: 91px;
+
+font-family: 'Pretendard';
+font-style: normal;
+font-weight: 600;
+font-size: 26px;
+line-height: 63px;
+/* identical to box height, or 242% */
+letter-spacing: -0.02em;
+text-transform: capitalize;
+
+
+}
+
+.welcome>a{
+    color: #EE7F35;
+}
+.멋쟁이사자처럼{
+    position: absolute;
+width: 155px;
+height: 63px;
+left: 1635px;
+top: 91px;
+
+font-family: 'Pretendard';
+font-style: normal;
+font-weight: 500;
+font-size: 26px;
+line-height: 63px;
+/* identical to box height, or 242% */
+letter-spacing: -0.02em;
+text-transform: uppercase;
+
+color: #2D2D2D;
+}
+.멋쟁이사자처럼>a{
+    color: #2D2D2D;
+}
+.content-title{
+    position: absolute;
+width: 230px;
+height: 31px;
+left: 464px;
+top: 255px;
+
+font-family: 'Pretendard';
+font-style: normal;
+font-weight: 500;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: -0.04em;
+text-transform: uppercase;
+
+color: #2D2D2D;
+}
+
+.content1{
+    position: absolute;
+    width: 90px;
+    height: 19px;
+    left: 1535px;
+    top: 262px;
+    
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+    letter-spacing: -0.04em;
+    
+    color: #4B4B4B;
+}
+.arrow{
+    position: absolute;
+width: 6px;
+height: 11px;
+left: 1639px;
+top: 266px;
+
+background: url(화살표_1.png);
+}
+.content2{
+    position: absolute;
+    width: 131px;
+    height: 20px;
+    left: 1659px;
+    top: 262px;
+    
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: right;
+    letter-spacing: -0.04em;
+    
+    color: #4B4B4B;
+}
+
+.location{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 659px;
+    height: 552px;
+    left: 464px;
+    top: 373px;
+    
+    
+    border: 1px solid #CCCCCC;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+.campus-address-content{
+    position: absolute;
+width: 560px;
+height: 37px;
+left: 1187px;
+top: 420px;
+
+font-family: 'Pretendard';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 37px;
+/* identical to box height, or 206% */
+letter-spacing: -0.04em;
+
+color: #2D2D2D;
+
+}
+
+
+.subway-content{
+    position: absolute;
+width: 603px;
+height: 74px;
+left: 1187px;
+top: 549px;
+
+font-family: 'Pretendard';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 37px;
+/* or 206% */
+letter-spacing: -0.04em;
+
+color: #2D2D2D;
+
+}
+
+.bus-content{
+    position: absolute;
+    width: 365px;
+    height: 37px;
+    left: 1187px;
+    top: 715px;
+    
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 37px;
+    /* identical to box height, or 206% */
+    letter-spacing: -0.04em;
+    
+    color: #2D2D2D;
+}
+
+.detail-location{
+    position: absolute;
+width: 142px;
+height: 22px;
+left: 1px;
+top: 889px;
+
+font-family: 'Pretendard';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+letter-spacing: -0.04em;
+
+color: #2D2D2D;
+}
+
+.menu{
+    width: 110%;
+    margin-top: 300px;
+    margin-left:90px;
+    font-family: 'pretendard';
+    text-decoration: none;
+   
+
+    /* width: 94px;
+height: 26px;
+left: 130px;
+top: 255px; */
+
+    }
+    .menu.item{
+        position: relative;
+        cursor: pointer;
+    }
+    .menu .item a{
+        color: black;
+        font-family: 'pretendard';
+        
+        font-size: 16px;
+        text-decoration: none;
+        display: block;
+        padding: 5px 30px;
+        line-height: 60px}
+    
+        .itmes i{    
+            margin-left: 15px;
+            
+            
+        }
+        .itme a .dropdown{
+            position: absolute;
+            right: 0;
+            margin: 20px;
+            transition: 0,3 ease;
+            padding: 5px;
+        }
+    
+        .item sub-menu{
+            background: #262627;
+            display: none;
+            padding: 10px;
+            
+        }
+
+        .을지대학교
+        {
+            font-weight: 800;
+        }
+        
